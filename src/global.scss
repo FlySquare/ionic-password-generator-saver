@@ -24,3 +24,34 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+html, body{
+  font-family: 'Comfortaa', cursive;
+}
+ion-text{
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+ion-textarea{
+  font-family: 'Comfortaa', cursive;
+}
+ion-content{
+  --background: var(--app-dark-purple);
+}
+app-header{
+  height: 120px;
+}
+ion-input{
+  font-family: 'Comfortaa', cursive!important;
+  color: white!important;
+  background: #231b32!important;
+  --padding-start: 15px!important;
+  --padding-top: 15px!important;
+  --padding-bottom: 15px!important;
+  border-radius: 10px;
+  border: 1px solid var(--app-light-purple);
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
